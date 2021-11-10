@@ -6,8 +6,8 @@ function sum(a, b) {
 	a + b
 }
 
-function mult() {
-	//TODO: Implementar multiplicação
+function mult(a, b){
+    return a * b;
 }
 
 function div() {
