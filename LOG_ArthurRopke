@@ -1,0 +1,22 @@
+    1  history
+    2  git clone https://github.com/Arthury10/trabalho_versionamento.git
+    3  cd trabalho_versionamento/
+    4  history
+    5  git checkout -b feature/soma
+    6  git add .
+    7  git commit -m 'Função soma'
+    8  git push origin feature/soma
+    9  git checkout master
+   10  git checkout -b feature/subtracao
+   11  git add .
+   12  git commit -m 'Função subtação'
+   13  git push origin feature/subtacao
+   14  git push origin feature/subtracao
+   15  git checkout master
+   16  git tag -a 1.0.0 -m 'Primeira Versão'
+   17  git pull
+   18  git add .
+   19  git commit -m 'adição do readme'
+   20  git push origin main
+   21  git push origin master
+   22  history > LOG_ArthurRopke
