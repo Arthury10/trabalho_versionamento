@@ -1,0 +1,18 @@
+    3  git clone https://github.com/Arthury10/trabalho_versionamento.git
+    4  cd trabalho_versionamento/
+    5  git checkout -b feature/multiplicacao
+    6  git status
+    7  git add .
+    8  git commit -m "Função multiplicação"
+    9  git push origin feature/multiplicacao 
+   10  git checkout master
+   11  git checkout -b feature/divisao
+   12  git status
+   13  git add .
+   14  git commit -m "Função Divisão"
+   15  git push origin feature/divisao 
+   16  git checkout master
+   17  git pull
+   18  git log
+   19  git pull
+   20  history > LOG_LucasAmaral
